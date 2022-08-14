@@ -1,0 +1,9 @@
+package br.edu.ifrn.jc.cadastro.dominio;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PessoaRepositorio extends JpaRepository<Pessoa, Long> {
+
+}
